@@ -1,3 +1,9 @@
+<!-- PHP built-in server ==> php -S localhost:8000 -->
+ <!-- Open VS Code terminal and run:  php test.php -->
+
+
+
+
 <?php 
 class Fruit{
     // properties
@@ -9,13 +15,10 @@ class Fruit{
         $this->name=$name;
     }
 
-    function get_name(){
-        return $this->name;
-    }
 }
 
 
     $apple=new Fruit();
     $apple->set_name("apple");
-    echo $apple->get_name();
+    echo $apple->name;
 ?>
