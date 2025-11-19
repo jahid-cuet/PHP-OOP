@@ -3,7 +3,6 @@
 
 
 
-
 1. PHP - What is OOP?
 
   -- Object-Oriented programming is faster and easier to execute.
@@ -84,4 +83,18 @@
   - We can access a constant from outside the class by using the class name followed by the scope resolution operator (::) followed by the constant name
 
   - Or, we can access a constant from inside the class by using the self keyword followed by the scope resolution operator (::) followed by the constant name
-  
+
+11. PHP - What are Abstract Classes and Methods?
+
+   - Abstraction means showing only the necessary details and hiding the internal complexity.
+   - It allows you to focus on what something does, not how it does it.
+
+   - An abstract class is a class that contains at least one abstract method. An abstract method is a method that is declared, but not implemented in the code.
+   - When inheriting from an abstract class, the child class method must be defined with the same name, and the same or a less restricted access modifier. So, if the abstract method is defined as protected, the child class method must be defined as either protected or public, but not private. Also, the type and number of required arguments must be the same. However, the child classes may have optional arguments in addition
+  --> when a child class is inherited from an abstract class, we have the following rules:
+
+    - The child class method must be defined with the same name and it redeclares the parent abstract method
+    - The child class method must be defined with the same or a less restricted access modifier
+    - The number of required arguments must be the same. However, the child class may have optional arguments in addition
+    - Any class that extends Car must implement this method.
+    - It cannot be instantiated directly (you cannot do: new Car()).
