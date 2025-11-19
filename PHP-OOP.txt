@@ -44,5 +44,13 @@
    
    - A constructor allows you to initialize an object's properties upon creation of the object.
    - constructor saves us from calling the set_name() method which reduces the amount of code
-   
+
+5. PHP - The __destruct() Function
+   - A destructor is called when the object is destructed or the script is stopped or exited.
+
+ As constructors and destructors helps reducing the amount of code, they are very useful
+
+6.
+ 
+
   
