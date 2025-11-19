@@ -1,24 +1,23 @@
-<!-- PHP built-in server ==> php -S localhost:8000 -->
- <!-- Open VS Code terminal and run:  php test.php -->
 
 
+<?php
 
-
-<?php 
-class Fruit{
-    // properties
+class Car{
     public $name;
     public $color;
+    public $Price;
 
-    // methods
-    function set_name($name){
+    function __construct($name,$color)
+    {
         $this->name=$name;
+        $this->color=$color;
     }
-
 }
 
+$Car1=new Car('Marceds','Red');
+// $Car1->get_name('Marcedes','Red');
+echo $Car1->color;
 
-    $apple=new Fruit();
-    $apple->set_name("apple");
-    echo $apple->name;
+echo $Car1->name;
+
 ?>
