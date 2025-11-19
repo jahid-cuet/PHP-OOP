@@ -50,7 +50,13 @@
 
  As constructors and destructors helps reducing the amount of code, they are very useful
 
-6.
+6. PHP OOP - Access Modifiers
+ 
+  There are three access modifiers:
+
+    - public - the property or method can be accessed from everywhere. This is default
+    - protected - the property or method can be accessed within the class and by classes derived from that class
+    - private - the property or method can ONLY be accessed within the class
  
 
   
