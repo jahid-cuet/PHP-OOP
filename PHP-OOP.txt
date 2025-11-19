@@ -58,5 +58,20 @@
     - protected - the property or method can be accessed within the class and by classes derived from that class
     - private - the property or method can ONLY be accessed within the class
  
+7. PHP OOP - Inheritance(niye asha)
+ -- Inheritance in OOP = When a class derives from another class.
 
+    - The child class will inherit all the public and protected properties and methods from the parent class.
+    - An inherited class is defined by using the (extends) keyword.
+   
+
+8. PHP - Overriding Inherited Methods
+
+  - Inherited methods can be overridden by redefining the methods (use the same name) in the child class
+
+9. PHP - The final Keyword
+   - The final keyword can be used to prevent class inheritance or to prevent method overriding.
+
+
+   
   
