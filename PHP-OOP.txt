@@ -18,6 +18,18 @@
 
 2. PHP - What are Classes and Objects?
 
+  -- A class is a blueprint used to create objects.A class can have:
+
+        - Properties (variables)
+
+        - Methods (functions)
+
+        - Constructors
+
+        - Access modifiers (public, private, protected)
+
+        - Code implementation
+
   --  a class is a template for objects, and an object is an instance of a class (ex..  class--> Fruit and object-->Apple,Banana etc.)
   -- When the individual objects are created, they inherit all the properties and behaviors from the class, but each object will have different values for the properties
 
@@ -100,6 +112,7 @@
     - It cannot be instantiated directly (you cannot do: new Car()).
 
 12. PHP - What are Interfaces?
+  -- It is a contract that defines method names but does not provide implementation
    - Interfaces allow you to specify public methods that a class should implement
    - Interfaces make it easy to use a variety of different classes in the same way. When one or more classes use the same interface, it is referred to as "polymorphism
 
@@ -118,4 +131,13 @@
 
    -- Tar Mane main kotha hoilo interface function define kore je function ta niye amra multiple class e kaj korte pari.
 
-13.
+13. PHP OOP - Traits
+
+  --> What are Traits?
+    - A trait is a reusable block of code (usually methods) that can be inserted into multiple classes to avoid code duplication.
+
+    - PHP only supports single inheritance: a child class can inherit only from one single parent.
+
+    - So, what if a class needs to inherit multiple behaviors? OOP traits solve this problem
+    
+    - Traits are used to declare methods that can be used in multiple classes. Traits can have methods and abstract methods that can be used in multiple classes, and the methods can have any access modifier (public, private, or protected).
