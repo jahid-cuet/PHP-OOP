@@ -150,3 +150,19 @@
  --> More on Static Methods
     - A class can have both static and non-static methods. A static method can be accessed from a method in the same class using the self keyword and double colon (::)
     - To call a static method from a child class, use the parent keyword inside the child class. Here, the static method can be public or protected.
+
+15. PHP - Static Properties
+   
+   - Static properties can be called directly - without creating an instance of a class
+
+   - Static properties are declared with the static keyword
+   
+   - To access a static property use the class name, double colon (::), and the property name (ClassName::$staticProp;)
+
+   - To call a static property from a child class, use the parent keyword inside the child class
+
+16. PHP Namespaces
+   -- Namespaces are qualifiers that solve two different problems:
+
+      - They allow for better organization by grouping classes that work together to perform a task
+      - They allow the same name to be used for more than one class
