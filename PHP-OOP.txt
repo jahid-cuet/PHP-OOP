@@ -166,3 +166,10 @@
 
       - They allow for better organization by grouping classes that work together to perform a task
       - They allow the same name to be used for more than one class
+
+17. PHP - What is an Iterable?
+   -- An iterable is any value which can be looped through with a foreach() loop
+
+   -- The iterable keyword can be used as a data type of a function argument or as the return type of a function
+
+   -- iterable use kori jate function-e emon value pass hoy jeita foreach diye loop kora jay — like array or generator
