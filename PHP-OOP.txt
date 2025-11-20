@@ -139,5 +139,14 @@
     - PHP only supports single inheritance: a child class can inherit only from one single parent.
 
     - So, what if a class needs to inherit multiple behaviors? OOP traits solve this problem
-    
+
     - Traits are used to declare methods that can be used in multiple classes. Traits can have methods and abstract methods that can be used in multiple classes, and the methods can have any access modifier (public, private, or protected).
+
+14. PHP - Static Methods
+
+    - Static methods can be called directly - without creating an object.
+    - Static methods are declared with the static keyword
+    - To access a static method use the class name, double colon (::), and the method name(ClassName::staticMethod())
+ --> More on Static Methods
+    - A class can have both static and non-static methods. A static method can be accessed from a method in the same class using the self keyword and double colon (::)
+    - To call a static method from a child class, use the parent keyword inside the child class. Here, the static method can be public or protected.
